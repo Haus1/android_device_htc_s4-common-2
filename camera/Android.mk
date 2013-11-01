@@ -1,4 +1,8 @@
+
 LOCAL_PATH := $(call my-dir)
+
+ifneq ($(PLATFORM_VERSION),4.4)
+
 include $(CLEAR_VARS)
 
 LOCAL_SRC_FILES := \
@@ -13,3 +17,5 @@ LOCAL_MODULE_TAGS := optional
 
 include $(BUILD_SHARED_LIBRARY)
 #include $(BUILD_HEAPTRACKED_SHARED_LIBRARY)
+
+endif
