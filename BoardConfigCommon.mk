@@ -59,7 +59,7 @@ BOARD_HAVE_NEW_QC_GPS := true
 TARGET_DISPLAY_INSECURE_MM_HEAP := true
 
 # Hardware tunables
-BOARD_HARDWARE_CLASS := device/htc/s4-common/cmhw
+# BOARD_HARDWARE_CLASS := device/htc/s4-common/cmhw
 
 # Recovery
 BOARD_CUSTOM_GRAPHICS := ../../../device/htc/s4-common/recovery/graphics.c
