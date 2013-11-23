@@ -40,8 +40,8 @@ PRODUCT_COPY_FILES += \
 # Camera
 PRODUCT_PACKAGES += \
     camera.msm8960 \
-    camera \
-    camera2
+    camera #\
+#    camera2
     
 # GPS
 PRODUCT_PACKAGES += \

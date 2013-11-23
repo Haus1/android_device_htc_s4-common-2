@@ -43,6 +43,7 @@ TARGET_KERNEL_SOURCE := kernel/htc/msm8960
 # Audio
 BOARD_USES_FLUENCE_INCALL := true
 BOARD_USES_SEPERATED_AUDIO_INPUT := true
+BOARD_HAVE_PRE_KITKAT_AUDIO_BLOB := true
 
 # Bluetooth
 BOARD_HAVE_BLUETOOTH_QCOM := true
@@ -60,12 +61,6 @@ TARGET_DISPLAY_INSECURE_MM_HEAP := true
 
 # Hardware tunables
 # BOARD_HARDWARE_CLASS := device/htc/s4-common/cmhw
-
-# Recovery
-BOARD_CUSTOM_GRAPHICS := ../../../device/htc/s4-common/recovery/graphics.c
-BOARD_HAS_NO_SELECT_BUTTON := true
-BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_15x24.h\"
-BOARD_RECOVERY_SWIPE := true
 
 # Charge mode
 BOARD_CHARGING_MODE_BOOTING_LPM := /sys/htc_lpm/lpm_mode
