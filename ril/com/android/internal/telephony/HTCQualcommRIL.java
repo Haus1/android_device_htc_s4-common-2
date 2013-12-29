@@ -145,7 +145,6 @@ public class HTCQualcommRIL extends RIL implements CommandsInterface {
                 // Initial conditions
                 if (SystemProperties.get("ril.socket.reset").equals("1")) {
                     setRadioPower(false, null);
-                    SystemProperties.set("ril.socket.reset", "");
                 }
                 // Trigger socket reset if RIL connect is called again
                 SystemProperties.set("ril.socket.reset", "1");
